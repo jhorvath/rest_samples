@@ -12,3 +12,5 @@ Examples of simple rest services
 ### Test
 ```curl localhost:8080/reverse/Ahoj%2C%20jak%20se%20m%C3%A1%C5%A1%3F```
 
+```curl localhost:8080/number/43256791```
+
