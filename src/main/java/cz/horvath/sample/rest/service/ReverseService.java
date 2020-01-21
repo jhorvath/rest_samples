@@ -1,4 +1,4 @@
-package cz.horvath.sample.rest;
+package cz.horvath.sample.rest.service;
 
 import org.springframework.stereotype.Component;
 

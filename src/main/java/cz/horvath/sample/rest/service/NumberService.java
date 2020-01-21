@@ -1,4 +1,4 @@
-package cz.horvath.sample.rest;
+package cz.horvath.sample.rest.service;
 
 import org.springframework.stereotype.Component;
 
@@ -11,7 +11,7 @@ public class NumberService {
 
     public long scramble(long number) {
         // compute number of digits and create byte array representation of the input number
-        byte[] digits = new byte[(int) (Math.log10(number) + 1)];
+        byte[] digits = number == 0 ? new byte[1] : new byte[(int) (Math.log10(number) + 1)];
         
         int multiply = 0;
         int sevens = 0;
